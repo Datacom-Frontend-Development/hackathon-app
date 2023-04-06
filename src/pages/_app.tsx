@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import LogRocket from 'logrocket';
+import '../styles/tailwind.css'
 
 LogRocket.init('n6wjam/hackathon-app');
 
