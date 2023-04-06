@@ -83,8 +83,8 @@ const Login = (props: Properties) => {
                     label="Username"
                     placeholder="ExampleUser1"
                     value={form.values.username}
-                    onChange={(event) => form.setFieldValue('email', event.currentTarget.value)}
-                    error={form.errors.email}
+                    onChange={(event) => form.setFieldValue('username', event.currentTarget.value)}
+                    error={form.errors.username}
                     radius="md"
                 />
                 <TextInput
