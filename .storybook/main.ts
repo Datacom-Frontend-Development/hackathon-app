@@ -15,3 +15,9 @@ const config: StorybookConfig = {
   },
 };
 export default config;
+
+
+export const managerWebpack = (config, options) => {
+  options.cache.set = () => Promise.resolve();
+  return config;
+};
